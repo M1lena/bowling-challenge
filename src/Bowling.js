@@ -27,7 +27,7 @@ Bowling.prototype.score = function() {
   return result;
 
   function isStrike() {
-    return game.rolls[rollIndex] == 10;
+    return game.rolls[rollIndex] === 10;
   }
 
   function isSpare() {
